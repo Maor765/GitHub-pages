@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".fadeInUp{\r\n    padding-top: 100px;\r\n    margin-top: 200px;\r\n    height: 100%;\r\n}\r\n\r\nbody{\r\n    height: 100%;\r\n}\r\n"
+module.exports = ""
 
 /***/ }),
 

@@ -89,7 +89,7 @@ module.exports = "/*!\n * Material Design for Bootstrap 4\n * Version: MDB FREE 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "html,\nbody,\n.view {\n  height: 100%;\n}\n\n\n/* Navigation*/\n\n\n.navbar {\n  background-color: transparent;  \n}\n\n\n.scrolling-navbar {\n  transition: background .5s ease-in-out, padding .5s ease-in-out;\n}\n\n\n.top-nav-collapse {\n  background-color: #2b3f66;\n}\n\n\nfooter.page-footer {\n  background-color: #2b3f66;\n  margin-top: 0;\n}\n\n\n@media only screen and (max-width: 768px) {\n  .navbar {\n    background-color: #2b3f66;\n  }\n}\n\n\n/* Carousel*/\n\n\n.carousel,\n.carousel-item,\n.active {\n  height: 100%;\n}\n\n\n.carousel-inner {\n  height: 100%;\n}\n\n\n/*Caption*/\n\n\n.flex-center {\n  color: #fff;\n}\n\n\n@media (min-width: 776px) {\n  .carousel .view ul li {\n    display: inline;\n  }\n  .carousel .view .full-bg-img ul li .flex-item {\n    margin-bottom: 1.5rem;\n  }\n}\n\n\n.navbar .btn-group .dropdown-menu a:hover {\n  color: #000 !important;\n}\n\n\n.navbar .btn-group .dropdown-menu a:active {\n  color: #fff !important;\n}"
 
 /***/ }),
 
